@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Title</title>
-        <style>
-            body {background-image: url("MS2bg.png");}
-            </style>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
-</html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formulas.js"></script>
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="jquery.js"></script>
+    <form>
+      Attack:
+      <input class="test" type="text" name="att" id="att"><br>
+      Attack line:
+      <input class="test" type="text" name="attLine" id="attLine"><br>
+      Damage increase (%):
+      <input type="text" name="dmgInc" id="dmgInc" readonly><br>
+    </form>
+    <form>
+      Boss damage (%):
+      <input class="test1" type="text" name="bd" id="bd"><br>
+      Boss damage line (%):
+      <input class="test1" type="text" name="bdline" id="bdline"><br>
+      Damage increase (%):
+      <input type="text" name="dmgIncBoss" id="dmgIncBoss" readonly><br>
+    </form>
+    <script src="input.js"></script>
+  </body>
