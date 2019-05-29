@@ -1,7 +1,21 @@
 #sm-head{
     font-size: 32px;
 }
-#bosses{
+#sm-middle{
+    font-size: 26px;
+}
+#sm-low{
+    font-size: 20px;
+}
+#item{
+    font-size: 24px;
+    color: darkslateblue;
+}
+#item-leg{
+    font-size: 24px;
+    color: darkgoldenrod;
+}
+#list, #bosses{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 50%;
@@ -19,4 +33,14 @@
 }
 #bosses tr:nth-child(even){
     background-color: #f2f2f2;
+}
+#separator{
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    margin: 10px;
+    border: solid black;
+    width: 50%;
+}
+#niceheader{
+    background-color: lightblue;
 }
